@@ -18,9 +18,7 @@ import Event from "./components/Events/Event";
 import Notify from "./components/Notification/Notify";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  
   componentDidMount() {
     AOS.init({
       duration: 900,
