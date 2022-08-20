@@ -7,7 +7,6 @@ import Topbar from "./container/header/Topbar";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
 import Courses from "./container/courses/Courses";
-import Message from "./container/Messages/Message";
 import PhotoGallary from "./container/gallery/PhotoGallery";
 import Footer from "./container/footer/Footer";
 import Slider from "./container/header/Slider";
@@ -36,7 +35,7 @@ class App extends React.Component {
             <Route exact path="/">
               <Slider />
               <About />
-              <Message />
+               
               <VideoPage />
               <Courses />
               <PhotoGallary />

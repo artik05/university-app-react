@@ -51,7 +51,7 @@ class Message extends Component {
                 Latest <strong style={{ color: "brown" }}>Updates</strong>
               </h1>
               <div className="latest-news">
-                <marquee
+                <div
                   ref={this.marquee}
                   onMouseEnter={() =>
                     this.marquee &&
@@ -94,7 +94,7 @@ class Message extends Component {
                       style={{ marginRight: "2rem", marginLeft: "10px" }}
                     ></i>
                   </p>
-                </marquee>
+                </div>
               </div>
             </Col>
           </Row>
